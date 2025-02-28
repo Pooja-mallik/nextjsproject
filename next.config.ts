@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+  images: {
+    domains: ["th.bing.com"],
+  },
+  
 
-const nextConfig: NextConfig = {
-  /* config options here */
 };
 
-export default nextConfig;
+module.exports = nextConfig;
