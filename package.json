@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.16",
+    "framer-motion": "^12.4.7",
     "next": "15.1.7",
     "next-auth": "^5.0.0-beta.25",
     "react": "^18.3.1",
